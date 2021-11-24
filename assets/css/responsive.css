@@ -1,0 +1,91 @@
+/* Pc */
+@media (min-width: 1024px){
+
+}
+
+/* Tablet  và  Mobile*/
+@media (max-width: 1023px){
+    .btn{
+        padding: 15px 16px;
+    }
+    .socials-list{
+        font-size:48px ;
+        margin: 0px 8px;
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+/* Mobile */
+@media (max-width: 739px){
+    .mobile-full-width{
+        width: 100% !important;
+    }
+
+    .mobile-column-full{
+        width: 100% !important;
+    }
+
+    .mobiel-margin-top-8{
+        margin-top: 8px !important;
+    }
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+
+    #header .search-btn{
+        float: right;
+        padding: 0 21px;
+        display: none;
+    }
+
+
+    #nav{
+        display: block;
+    }
+
+    #nav > li{
+        display: block;/* cho các chữ nằm doc*/
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: rgba(148, 144, 144, 0.747)
+       
+    }
+    #nav .subnav a{  
+       padding: 5px 41px;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-img{
+        width: 60%;
+        
+    }
+    #content .mobile-column-full{
+        width: 100%;
+    }
+    .contact-form{
+        margin-top: 16px;
+    }
+    
+
+   
+}
